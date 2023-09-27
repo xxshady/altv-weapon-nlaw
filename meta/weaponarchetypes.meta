@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>nlaw</modelName>
+            <txdName>nlaw</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value="500"/>
+        </Item>
+            <Item>
+            <modelName>nlaw_rocket</modelName>
+            <txdName>nlaw_rocket</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value="500"/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>
+
