@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF - 8"?>
 
 <CWeaponInfoBlob>
-    <SlotNavigateOrder>
+  <SlotNavigateOrder>
+    <Item>
+      <WeaponSlots>
         <Item>
-            <WeaponSlots>
-                <Item>
-                    <OrderNumber value="464"/>
-                    <Entry>SLOT_WEAPON_NLAW</Entry>
-                </Item>
-            </WeaponSlots>
+          <OrderNumber value="464" />
+          <Entry>SLOT_WEAPON_NLAW</Entry>
         </Item>
-    </SlotNavigateOrder>
-    <Infos>
-        <Item>
-            <Infos>
- <Item type="CAmmoRocketInfo">
+      </WeaponSlots>
+    </Item>
+  </SlotNavigateOrder>
+  <Infos>
+    <Item>
+      <Infos>
+        <Item type="CAmmoRocketInfo">
           <Name>AMMO_NLAW</Name>
           <Model>nlaw_rocket</Model>
           <Audio />
@@ -86,12 +86,12 @@
           <MaxRollAngleSin value="0.000000" />
         </Item>
       </Infos>
-  </Item>
-  <Item />
-  <Item>
-    <Infos> 
-                <Item type="CWeaponInfo">
-                     <Name>WEAPON_NLAW</Name>
+    </Item>
+    <Item />
+    <Item>
+      <Infos>
+        <Item type="CWeaponInfo">
+          <Name>WEAPON_NLAW</Name>
           <Model>nlaw</Model>
           <Audio>AUDIO_ITEM_RPG</Audio>
           <Slot>SLOT_WEAPON_NLAW</Slot>
@@ -107,7 +107,7 @@
           <FireType>PROJECTILE</FireType>
           <WheelSlot>WHEEL_HEAVY</WheelSlot>
           <Group>GROUP_HEAVY</Group>
-          <AmmoInfo ref="AMMO_RPG" />
+          <AmmoInfo ref="AMMO_NLAW" />
           <AimingInfo ref="rpg" />
           <ClipSize value="1" />
           <AccuracySpread value="2.500000" />
@@ -203,7 +203,7 @@
           <RumbleIntensity value="0.900000" />
           <RumbleIntensityTrigger value="0.950000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="250" />
+          <InitialRumbleDurationFps value="250" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="95" />
           <RumbleIntensityFps value="1.000000" />
@@ -228,10 +228,10 @@
           <RunAndGunAlternativeOrScopedCameraHash />
           <CinematicShootingAlternativeOrScopedCameraHash />
           <CameraFov value="45.000000" />
-          <FirstPersonAimFovMin value="40.00000"/>
-          <FirstPersonAimFovMax value="45.00000"/>
-          <FirstPersonScopeFov value="50.00000"/>
-          <FirstPersonScopeAttachmentFov value="30.00000"/>
+          <FirstPersonAimFovMin value="40.00000" />
+          <FirstPersonAimFovMax value="45.00000" />
+          <FirstPersonScopeFov value="50.00000" />
+          <FirstPersonScopeAttachmentFov value="30.00000" />
           <FirstPersonRNGOffset x="0.000000" y="0.000000" z="-0.080000" />
           <FirstPersonRNGRotationOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonLTOffset x="0.000000" y="0.000000" z="-0.045" />
@@ -264,18 +264,18 @@
           <AimProbeLengthMin value="0.550000" />
           <AimOffsetMax x="0.150000" y="-0.300000" z="0.400000" />
           <AimProbeLengthMax value="0.550000" />
-    	        <AimOffsetMinFPSIdle x="0.066000" y="0.403000" z="0.097000" />
-		<AimOffsetMedFPSIdle x="0.101000" y="0.401000" z="0.432000" />
-		<AimOffsetMaxFPSIdle x="0.132000" y="0.129000" z="0.627000" />
-	        <AimOffsetEndPosMinFPSIdle x="-0.273000" y="0.540000" z="-0.487000" />
-		<AimOffsetEndPosMedFPSIdle x="-0.121000" y="0.818000" z="0.278000" />
-		<AimOffsetEndPosMaxFPSIdle x="-0.02000" y="-0.435000" z="0.791000" />
-		<AimOffsetMinFPSLT x="0.130000" y="0.331000" z="0.749000" />
-		<AimOffsetMaxFPSLT x="0.108000" y="-0.275000" z="0.509000" />
-		<AimOffsetMinFPSRNG x="0.130000" y="0.331000" z="0.749000" />
-		<AimOffsetMaxFPSRNG x="0.108000" y="-0.275000" z="0.509000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.178000" z="0.791000" />
-		<AimOffsetMaxFPSScope x="0.106000" y="-0.359000" z="0.394000" />
+          <AimOffsetMinFPSIdle x="0.066000" y="0.403000" z="0.097000" />
+          <AimOffsetMedFPSIdle x="0.101000" y="0.401000" z="0.432000" />
+          <AimOffsetMaxFPSIdle x="0.132000" y="0.129000" z="0.627000" />
+          <AimOffsetEndPosMinFPSIdle x="-0.273000" y="0.540000" z="-0.487000" />
+          <AimOffsetEndPosMedFPSIdle x="-0.121000" y="0.818000" z="0.278000" />
+          <AimOffsetEndPosMaxFPSIdle x="-0.02000" y="-0.435000" z="0.791000" />
+          <AimOffsetMinFPSLT x="0.130000" y="0.331000" z="0.749000" />
+          <AimOffsetMaxFPSLT x="0.108000" y="-0.275000" z="0.509000" />
+          <AimOffsetMinFPSRNG x="0.130000" y="0.331000" z="0.749000" />
+          <AimOffsetMaxFPSRNG x="0.108000" y="-0.275000" z="0.509000" />
+          <AimOffsetMinFPSScope x="0.090000" y="0.178000" z="0.791000" />
+          <AimOffsetMaxFPSScope x="0.106000" y="-0.359000" z="0.394000" />
           <TorsoAimOffset x="-1.100000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.120000" y="0.050000" />
           <LeftHandIkOffset x="-0.075000" y="-0.075000" z="-0.050000" />
@@ -305,7 +305,10 @@
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand Gun CanFreeAim Silenced TwoHanded AnimReload AnimCrouchFire CreateVisibleOrdnance UsableOnFoot UsableInCover DisableRightHandIk DisableLeftHandIkInCover Scary DisableIdleVariations HasLowCoverReloads HasLowCoverSwaps RemoveEarlyWhenEnteringVehicles DelayedFiringAfterAutoSwap DisableStealth Rpg DriveByMPOnly UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+          <WeaponFlags>CarriedInHand Gun CanFreeAim Silenced TwoHanded AnimReload AnimCrouchFire CreateVisibleOrdnance
+            UsableOnFoot UsableInCover DisableRightHandIk DisableLeftHandIkInCover Scary DisableIdleVariations
+            HasLowCoverReloads HasLowCoverSwaps RemoveEarlyWhenEnteringVehicles DelayedFiringAfterAutoSwap
+            DisableStealth Rpg DriveByMPOnly UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="NULL" />
           <ReloadUpperBodyFixupExpressionData ref="rpg" />
@@ -326,9 +329,8 @@
           <HudAccuracy value="10" />
           <HudRange value="70" />
         </Item>
-            </Infos>
-        </Item>
-    </Infos>
-    <Name>AR</Name>
+      </Infos>
+    </Item>
+  </Infos>
+  <Name>AR</Name>
 </CWeaponInfoBlob>
-
